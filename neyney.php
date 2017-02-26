@@ -1,6 +1,6 @@
 <?php
 	// NeyNey!
-	if ($context['current_board'] == 2)
+	if ($context['current_board'] == 8)
 		echo '
 	<script src="', $settings['default_theme_url'], '/scripts/jquery-3.1.1.js" type="text/javascript"></script>
 	<script src="', $settings['default_theme_url'], '/scripts/jquery-css-transform.js" type="text/javascript"></script>
@@ -31,11 +31,11 @@
 		console.info(\'Neytiri-is-watching-you.\');
 	}
 	});
-	// ]]></script>
+	// ]'.']></script>
 	<a href="', $scripturl, '?topic=27528" title="Neytiri"><img id="neytiri_stalker" src="', $settings['images_url'], '/' .$context['theme_variant_url'], '/neyney.png" style="border: none; position: fixed; bottom: -40px; right: -15px;"/></a>';
 
 	// The minecraft thing
-	if ($context['current_board'] == 1)
+	if ($context['current_board'] == 199)
 		echo '
 	<style>
 	#ssssss {position: fixed; bottom: -216px; right: -133px;}
