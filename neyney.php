@@ -32,7 +32,7 @@
 	}
 	});
 	// ]'.']></script>
-	<a href="', $scripturl, '?topic=27528" title="Neytiri"><img id="neytiri_stalker" src="', $settings['images_url'], '/' .$context['theme_variant_url'], '/neyney.png" style="border: none; position: fixed; bottom: -40px; right: -15px;"/></a>';
+	<a href="', $scripturl, '?topic=27573" title="Neytiri"><img id="neytiri_stalker" src="', $settings['images_url'], '/' .$context['theme_variant_url'], '/neyney.png" style="border: none; position: fixed; bottom: -40px; right: -15px;"/></a>';
 
 	// The minecraft thing
 	if ($context['current_board'] == 199)
