@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.simplemachines.org/xml/package-info">
+
+<package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
+	<id>Titstewan:SMFNeyney</id>
+	<name>SMF Neyney</name>
+	<type>modification</type>
+	<version>1.0</version>
+
+	<install for="2.0 - 2.0.99">
+		<modification type="file">neyney.xml</modification>
+		<require-file name="jquery-css-transform.js" destination="$boarddir/Themes/default/scripts" />
+		<require-file name="jquery-animate-css-rotate-scale.js" destination="$boarddir/Themes/default/scripts" />
+		<require-file name="jquery-3.1.1.js" destination="$boarddir/Themes/default/scripts" />
+		<require-file name="creeper.png" destination="$imagesdir" />
+		<require-file name="neyney.png" destination="$imagesdir" />
+	</install>
+	
+	<uninstall for="2.0 - 2.0.99">
+		<modification reverse="true">neyney.xml</modification>
+		<remove-file name="$boarddir/Themes/default/scripts/jquery-css-transform.js" />
+		<remove-file name="$boarddir/Themes/default/scripts/jquery-animate-css-rotate-scale.js" />
+		<remove-file name="$boarddir/Themes/default/scripts/jquery-3.1.1.js" />
+		<remove-file name="$imagesdir/creeper.png" />
+		<remove-file name="$imagesdir/neyney.png" />
+	</uninstall>
+
+</package-info>
