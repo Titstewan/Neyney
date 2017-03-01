@@ -98,7 +98,7 @@
 		Neytiri.bind(\'mouseover\', function() {
 			Neytiri.startMoving()
 		});
-	if (window.console && window.console.firebug) {
+	if (console.log) {
 		console.warn(\'RDA hacker detected.\');
 		console.info(\'Neytiri-is-watching-you.\');
 	}
