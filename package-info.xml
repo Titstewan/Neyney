@@ -7,21 +7,17 @@
 	<type>modification</type>
 	<version>1.1</version>
 
-	<install for="2.0 - 2.0.99">
+	<install for="2.1 BETA 1, 2.1 BETA 2, 2.1 BETA 3, 2.1 RC1, 2.1 RC2, 2.1 RC3, 2.1 RC4, 2.1 - 2.1.99">
 		<modification type="file">neyney.xml</modification>
 		<require-file name="jquery-css-transform.js" destination="$boarddir/Themes/default/scripts" />
 		<require-file name="jquery-animate-css-rotate-scale.js" destination="$boarddir/Themes/default/scripts" />
-		<require-file name="jquery-3.1.1.js" destination="$boarddir/Themes/default/scripts" />
-		<require-file name="creeper.png" destination="$imagesdir" />
 		<require-file name="neyney.png" destination="$imagesdir" />
 	</install>
 	
-	<uninstall for="2.0 - 2.0.99">
+	<uninstall for="2.1 BETA 1, 2.1 BETA 2, 2.1 BETA 3, 2.1 RC1, 2.1 RC2, 2.1 RC3, 2.1 RC4, 2.1 - 2.1.99">
 		<modification reverse="true">neyney.xml</modification>
 		<remove-file name="$boarddir/Themes/default/scripts/jquery-css-transform.js" />
 		<remove-file name="$boarddir/Themes/default/scripts/jquery-animate-css-rotate-scale.js" />
-		<remove-file name="$boarddir/Themes/default/scripts/jquery-3.1.1.js" />
-		<remove-file name="$imagesdir/creeper.png" />
 		<remove-file name="$imagesdir/neyney.png" />
 	</uninstall>
 
